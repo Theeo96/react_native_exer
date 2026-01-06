@@ -1,20 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import ProfileCard from "./components/ProfileCard";
+import VerticalScrollCard from "./components/VerticalScrollCard";
+import HorizontalScrollCard from "./components/HorizontalScrollCard";
+import TouchableOpacityAlert from "./components/TouchableOpacityAlert";
+import ImageGallery from "./components/ImageGallery";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  // return <ProfileCard />;
+  // return <VerticalScrollCard />;
+  // return <HorizontalScrollCard />;
+  // return <TouchableOpacityAlert />;
+  return <ImageGallery />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
